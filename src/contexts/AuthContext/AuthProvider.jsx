@@ -29,7 +29,6 @@ const AuthProvider = ({ children }) => {
         return signOut(auth);
     }
 
-    // useEffect(() => { }, [])
     // useEffect( () =>{
     //     // step -1: observer set 
     //     // step-2: set in a variable
@@ -43,6 +42,7 @@ const AuthProvider = ({ children }) => {
             setUser(currentUser);
             setLoading(false);
         })
+
         // clear the observer on unmount
         return () => {
             unsubscribe();
