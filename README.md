@@ -1,16 +1,32 @@
-# React + Vite
+# Email & Password Authentication (Firebase)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean and simple **Firebase Email/Password Authentication** setup. This project demonstrates user registration, login, logout, and auth state management using Firebase Authentication — completely frontend-only.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- React.js + Firebase Authentication
+- Email/Password signup & login
+- Logout functionality
+- Realtime auth state listener
+- Protected routes using React Router
+- Error handling & form validation
+- Tailwind CSS styling
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
+- **React.js**
+- **JavaScript (ES6+)**
+- **Tailwind CSS**
+- **Firebase v10+** (Modular SDK)
+- **React Router DOM** (optional for protected routes)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Installation
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/lijanahmmed/Email-password-auth.git
+cd Email-password-auth
